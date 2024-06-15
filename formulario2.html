@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./estilo1.css">
+</head>
+<body>
+    <header>
+        <main>
+
+    <form action="https://formspree.io/f/mgeggada" method="POST">
+
+    <h2>Formulario de Datos Personales</h2> <br>
+    
+
+    <label for="nombre" >Nombre:</label> <br>
+    <input type="text" name="nombre" id="nombre" > <br><br>
+
+    <label for="apellido">Apellido:</label><br>
+    <input type="text" name="apellido" id="apellido"><br><br>  
+
+    <label for="email">Email:</label><br> 
+    <input type="email" name="email" id="email"><br><br>
+
+    <label for="fechaNacimiento">Fecha de Nacimiento:</label><br>
+    <input type="date" name="fechaNacimiento" id="fechaNacimiento"><br><br>
+
+    <label for="pais">País de Residencia:</label><br>
+    <input type="text" name="pais" id="pais"><br><br>
+   
+    <input class="button"type="submit"  value="Enviar" onclick="return validarFormulario()"> <br><br>
+
+    <a class="button" href="./formulario3.html">Estilo de Alto Contraste</a>
+    <a class="button" href="./formulario.html">Sin Estilo</a>
+    </form>
+    
+  
+
+        </main>
+    </header>
+    <footer>
+    </footer>
+    <script src="./validacion.js"></script>
+</body>
+</html>

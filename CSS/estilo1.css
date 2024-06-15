@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 5px;
+    background-color: rgb(152, 61, 93);
+}
+
+label{
+    background-color: aliceblue;
+}
+
+input{
+    background-color: rgb(248, 238, 244);
+    width: 95%;
+}
+
+
+form{
+    background-color:aliceblue;
+    width: 25em;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+h2{
+    color:rgb(152, 61, 93);
+    text-align: center;
+    background-color: aliceblue;
+
+}
+
+.button{
+padding: 7px;
+background-color: rgb(152, 61, 93);
+color:aliceblue;
+border:none;
+border-radius: 3px;
+width:100%;
+text-decoration: none;
+}
+
+
+.button:hover {
+    background-color: #881536;
+    color: white;
+  }
+
+
+
