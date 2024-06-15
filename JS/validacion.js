@@ -35,6 +35,15 @@ for(var i=0; i<apellido.length; i++){
     }
 }
 
+//verificar si el Pais de Residencia  contiene solo caracteres alfabéticos y espacios
+
+for(var i=0; i<pais.length; i++){
+    var charCode2=pais.charCodeAt(i);
+    if(!((charCode2>=65 && charCode2<=90) || (charCode2>=97 && charCode2<=122) || charCode2===32)){
+        alert("El campo 'Pais de Residencia' solo puede contener caracteres alfabéticos y espacios.");
+        return false;
+    }
+}
 
  
 var validEmail =  /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/;
