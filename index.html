@@ -6,6 +6,7 @@
     <title>Formulario</title>
     <link rel="stylesheet" href="./CSS/estilo0.css">
    
+   
 </head>
 <body>
     <header>
@@ -16,19 +17,19 @@
     <h2>Formulario de Datos Personales</h2> <br>
 
     <label for="nombre" >Nombre:</label> 
-    <input type="text" name="nombre" id="nombre" > <br><br>
+    <input type="text" name="nombre" id="nombre" required> <br><br>
 
     <label for="apellido">Apellido:</label>
-    <input type="text" name="apellido" id="apellido"><br><br>  
+    <input type="text" name="apellido" id="apellido" required><br><br>  
 
     <label for="email">Email:</label>
-    <input type="email" name="email" id="email"><br><br>
+    <input type="email" name="email" id="email" required><br><br>
 
     <label for="fechaNacimiento">Fecha de Nacimiento:</label>
-    <input type="date" name="fechaNacimiento" id="fechaNacimiento"><br><br>
+    <input type="date" name="fechaNacimiento" id="fechaNacimiento" required><br><br>
 
     <label for="pais">País de Residencia:</label>
-    <input type="text" name="pais" id="pais"><br><br>
+    <input type="text" name="pais" id="pais" required><br><br>
 
 
     <input type="submit"  value="Enviar" onclick="return validarFormulario()"><br><br>
@@ -45,6 +46,6 @@
     <footer>
  
     </footer>
-    <script src="./JS/validacion.js"></script>
+    <!--<script src="./JS/validacion.js"></script>-->
 </body>
 </html>
