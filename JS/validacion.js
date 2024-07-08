@@ -9,10 +9,10 @@ function validarFormulario(){
 
 //verificar si algun campo está en blanco
 
-//if(nombre==="" || apellido==="" || email==="" || pais==="" || fecha===""){
-  //  alert("Por favor complete todos los campos del Formulario");
-    //return false;
-//}
+if(nombre==="" || apellido==="" || email==="" || pais==="" || fecha===""){
+    alert("Por favor complete todos los campos del Formulario");
+    return false;
+}
 
 //verificar si el nombre contiene solo caracteres alfabéticos y espacios
 
