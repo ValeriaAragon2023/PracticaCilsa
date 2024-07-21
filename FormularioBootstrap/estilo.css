@@ -1,0 +1,25 @@
+form{
+    width: 25em;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 5px;
+  
+}
+
+
+h2{
+    font-size: 120%;
+    text-align: center;
+
+}
+
+.but{
+     color:black;
+    background-color: rgb(233, 233, 232);
+    border:1px solid grey;
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+
